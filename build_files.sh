@@ -1,3 +1,5 @@
 cd frontend
 yarn install
-yarn --cwd ../public/ build
+cd ..
+mkdir public
+> file.txt
