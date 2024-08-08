@@ -1,3 +1,3 @@
 cd frontend
 yarn install
-yarn --cwd ../public/ dev
+yarn --cwd ../public/ build
