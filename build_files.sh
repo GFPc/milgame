@@ -1,2 +1,3 @@
 cd frontend
-yarn start
+npm install
+npm start
