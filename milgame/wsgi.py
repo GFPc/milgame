@@ -15,7 +15,7 @@ from threading import Thread
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'milgame.settings')
 
 def start_frontend():
-    os.system("cd frontend ; yarn start")
+    os.system("cd ../frontend ; yarn start")
     
 
 Thread(target=start_frontend, daemon=True).start()
