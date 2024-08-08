@@ -12,6 +12,11 @@ import os
 from django.core.wsgi import get_wsgi_application
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'milgame.settings')
-os.system("yarn start")
+
+def start_frontend():
+    os.system("cd frontend && yarn start")
+    
+
+Thread(target=start_frontend, daemon=True).start()
 
 app = get_wsgi_application()
