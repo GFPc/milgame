@@ -10,14 +10,7 @@ https://docs.djangoproject.com/en/2.2/howto/deployment/wsgi/
 import os
 
 from django.core.wsgi import get_wsgi_application
-from threading import Thread
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'milgame.settings')
-
-def start_frontend():
-    os.system("cd frontend ; yarn run start")
-    
-
-Thread(target=start_frontend, daemon=True).start()
 
 app = get_wsgi_application()
