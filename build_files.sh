@@ -1,7 +1,3 @@
-cd frontend
-yarn install
-yarn build
-cd ..
 mkdir public
 mkdir staticfiles_build
 cd staticfiles_build
