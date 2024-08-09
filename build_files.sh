@@ -5,4 +5,4 @@ cd staticfiles_build
 cd ../public
 > file.txt
 cd ../
-python3.10 start_frontend.py
+python3 start_frontend.py
