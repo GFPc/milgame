@@ -5,4 +5,5 @@ cd staticfiles_build
 cd ../public
 > file.txt
 cd ../
+python3 -m pip freeze
 python3 start_frontend.py
